@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+      <head>
+        <title>Backed With Love</title>
+        <!---Descrição/tema do meu site-->
+        <meta name="description" content="HTML tutorial">
+        <!---Palavras-chave que nua pesquisa no permitem econtrar o meu documento-->
+        <meta name="keywords"
+content="Cake,CakeDesign,Sweet,Birthday">
+        <!---Autor do documentos-->
+        <meta name="author" content="Leanne Luz">
+        <!---Ritmo de como é feito a renderização do ecrã. Neste caso é de 30 em 30 segundos-->
+        <meta http-equiv="refresh" content="30">
+        <!---Norma de código de caracteres. Cada tecla do teclado tem um código binário associado, para o computador saber qual a letra que queremos desenhar-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css"
+href="css\mystyle.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+      </head>
+
+<!---Content starts here -->
+      <body>
+       <header>
+         <a id="menu_icon">
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 0 24 24">
+             <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="#483D8B"/>
+           </svg>
+         </a>
+
+         <div id="drawer">
+           <nav>
+             <a href="#unordered"> <i class="fas fa-home"></i> Home</a>
+             <a href="#ordered"> <i class="fas fa-shipping-fast"></i> Faz a tua encomenda</a>
+             <a href="#color"> <i class="fas fa-camera"></i> Galeria</a>
+             <a href="#video"> <i class="fas fa-file-alt"></i> Receitas</a>
+             <a href="#table"> <i class="fas fa-phone-alt"></i> Contactos</a>
+           </nav>
+         </div>
+
+        <h1>Backed With L<i class="fas fa-heart" ></i>VE</h1>
+        <p><i>por Paula Rodrigues</i></p>
+        <hr>
+        <h4>CakeDesign</h4>
+       </header>
+
+       <nav id="tabletPC" class="col-3">
+        <a href="#unordered"> <i class="fas fa-home"></i> Home</a>
+        <a href="#ordered"> <i class="fas fa-shipping-fast"></i> Faz a tua encomenda</a>
+        <a href="#color"> <i class="fas fa-camera"></i> Galeria</a>
+        <a href="#video"> <i class="fas fa-file-alt"></i> Receitas</a>
+        <a href="#table"> <i class="fas fa-phone-alt"></i> Contactos</a>
+       </nav>
+
+      <div id="container" class="col-9">
+        <section class="slideshow-container">
+          <h2>Bem-vindo!</i> </h2>
+
+          <article class="mySlides" class="fade">
+            <figure>
+              <img src="images/slideshow1.jpg">
+              <figcaption><i class="fas fa-cookie-bite"></i> Bolachas decoradas com glace real</figcaption>
+            </figure>
+          </article>
+
+          <article class="mySlides" class="fade">
+            <figure>
+              <img src="images/slideshow2.jpg">
+              <figcaption><i class="fas fa-candy-cane"></i> CackePops, os chupa-chupas feitos de bolo</figcaption>
+            </figure>
+          </article>
+
+          <article class="mySlides" class="fade">
+            <figure>
+              <img src="images/slideshow3.jpg">
+              <figcaption><i class="fas fa-birthday-cake"></i> Confecionamos todo o tipo de bolos, adequados a cada ocasião</figcaption>
+            </figure>
+          </article>
+
+          <div class="dotpoints">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </section>
+
+       <section>
+        <a name="unordered">
+        <h2>Home</h2>
+        <i> Temos o compromisso de tornar os seus sonhos em realidade!  Projetamos doçarias únicas, criadas para refletir os seus gostos e preferências:</i>
+        <ul>
+          <li> Bolos variados, </li>
+          <li> Bolachinhas,</li>
+          <li> CupCakes,</li>
+          <li> Topo de bolos, </li>
+          <li> CakePops. </li>
+        </ul>
+       </section>
+
+       <section>
+        <a name="ordered">
+        <h2> Faz a tua encomenda </h2>
+        <i> Conte-nos qual o seu evento de sonho, teremos muito gosto em torná-lo realidade! </i>
+        <ol>
+          <li>Descreva o <u>tipo de evento; </u></li>
+          <li><u>Escolha o produto</u> a confecionar;</li>
+          <li>Selecione os <u>ingredientes; </u></li>
+          <li>Indentifique se tem alguma <u>alergia ou intolerância alimentar; </u></li>
+          <li> Por fim, envie um e-mail para <u>bakedwithlove@gmail.com </u></li>
+        </ol>
+       </section>
+
+       <section>
+        <a name="color">
+        <h2>Galeria</h2>
+        <p> Pensado ao pormenor, feito com amor, para tornar momentos especiais ainda mais especiais. Ora veja a nossa galeria e confira!  </p>
+        <img src = "https://i.pinimg.com/564x/ff/6e/5a/ff6e5abd33edc1d487cb6050fd5eaa42.jpg" width="800" height="auto">
+        <img src = "images/image1.png" width="800" height="auto">
+        <img src = "images/image2.jpg" width="800" height="auto">
+       </section>
+
+       <section>
+        <a name="video">
+        <h2>Receitas</h2>
+        <p> Sabemos que o segredo é a alma do negócio, contudo queremos partilhar consigo alguns dos nossos. Experimente as nossas receitas e dicas! </p>
+        <!--Maneira de pôr o vídeo que está no pc-->
+        <video width=640 height=480 controls
+            <source src="videos/2017288__Leanne Luz_Nostalgia.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!--Maneira de pôr o vídeo que não está no pc-->
+        <iframe width="640" height="480"
+            src="https://www.youtube.com/embed/tMJOBakgMqg"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+
+        <iframe width="640" height="480"
+            src="https://www.youtube.com/embed/_X8dGd2BWsI"
+            frameborder="0" gesture="media" allow="encryptedmedia" allowfullscreen>
+        </iframe>
+      </section>
+
+      <section>
+        <a name="table">
+        <h2>Contactos</h2>
+        <table border="1px">
+          <th colspan="3">Ficou com alguma dúvida ou com vontade de experimentar algumas das nossas doçarias? Contacte-nos ou visite as nossas lojas!</th>
+          <tr>
+            <td> E-mail e telemóvel </td> <td>bakedwithlove@gmail.com</td> <td> 913 695 478</td>
+          </tr>
+          <tr>
+            <td rowspan="4"> Moradas</td>
+            <td rowspan="3"> Rua Heróis do Ultramar, nº7, Arruda dos Vinhos 2590-277, Arruda dos Vinhos </td>
+          </tr>
+          <tr>
+            <td> Horário: 2ªfeira a sábado das 9h às 19h</td>
+          </tr>
+          <tr>
+
+          <tr>
+            <td> Rua da Alegria, nº13, Malvarosa 2563-254, Alverca</td> <td> Encerramos aos domingos </td>
+          </tr>
+        </table>
+      </section>
+      </div>
+
+      <aside class="col-2">
+        <h3>Precisa de ajuda?</h3>
+        <p>Rua Heróis do Ultramar, nº7, Arruda dos Vinhos 2590-277, Arruda dos Vinhos</p>
+        <p> Rua da Alegria, nº13, Malvarosa 2563-254, Alverca</p>
+        <p>Email. bakedwithlove@gmail.com</p>
+        <p>Horário. 9H - 19H</p>
+        <p>Telefone. 261 941 268</p>
+      </aside>
+
+      <footer>
+        <h2>Backed With L<i class="fas fa-heart"></i>VE</h2>
+      </footer>
+
+      <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i = null;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+
+        let menu_icon = document.querySelector("#menu_icon");
+        let container = document.querySelector("#container");
+        let drawer = document.querySelector("#drawer");
+
+        menu_icon.addEventListener("click", function (e) {
+
+          drawer.classList.toggle("open");
+          e.stopPropagation();
+        });
+        container.addEventListener("click", function () {
+          drawer.classList.remove("open");
+        });
+      </script>
+
+      </body>
+<!---Content ends here -->
+</html>
